@@ -12,12 +12,12 @@
 #include <iterator>
 using namespace std;
 
-class BubbleSort
+class BubbleSortAlg
 {
 public:
     int length;
     int *arr;
-    BubbleSort(int ar[], int len)
+    BubbleSortAlg(int ar[], int len)
 
     {
         length = len;
@@ -62,7 +62,7 @@ int main()
     {
         cin >> arr[i];
     }
-    BubbleSort bs = BubbleSort(arr, n);
+    BubbleSortAlg bs = BubbleSortAlg(arr, n);
     cout << "Before sorting\n";
     bs.display();
 
