@@ -2,7 +2,7 @@
 
 
 
-/*    Bubble Sort is the simplest sorting algorithm.
+/*    Bubble Sort is the simplest sorting  alg.
  It works by repeatedly swapping the adjacent elements 
 
 */
