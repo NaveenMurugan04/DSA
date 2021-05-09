@@ -1,8 +1,7 @@
 
-/* Insertion  sort is the sorting mechanism where the sorted array is built having one item at a time. The array elements are compared with each other sequentially and then arranged simultaneously in some particular order , Every pass will ensure that elements are arranged in left side are lesser than curent element*/
-
-
-
+/* Insertion  sort is the sorting mechanism where the sorted array is built having one item at a time. 
+The array elements are compared with each other sequentially and then arranged simultaneously in some particular order ,
+Every pass will ensure that elements are arranged in left side are lesser than curent element*/
 
 #include <iostream>
 #include <array>
