@@ -4,7 +4,8 @@
 
 
 /*Slection Sort finds small element in each iteration and places in respective
-position.  */
+posi
+tion.  */
 #include <iostream>
 #include <array>
 #include <iterator>
