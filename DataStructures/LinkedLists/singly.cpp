@@ -61,18 +61,20 @@ public:
         Node *next = NULL;
         Node *prev = NULL;
         Node *curr = head;
-        Node *temp = NULL;
+       
+       
 
         while (curr != NULL)
         {
 
-            temp = curr->next;
-            next = curr;
-            next->next = prev;
-            prev = next;
-            curr = temp;
+            next = curr->next;
+           
+           
+            curr->next = prev;
+            prev = curr;
+            curr = next;
         }
-        head = next;
+        head = prev;
     }
 
     void display()
