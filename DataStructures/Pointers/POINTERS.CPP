@@ -18,6 +18,7 @@ int main()
 	// Storing address of ptr2 in ptr1 
 	ptr1 = &ptr2; 
 	
+	 **ptr1=1;
 	// Displaying value of var using 
 	// both single and double pointers 
 	cout<<("Value of var = %d\n", var ); 
