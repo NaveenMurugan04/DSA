@@ -1043,4 +1043,6 @@ dkms.conf
 *.uf2
 # Raspberry Pi Pico disassembler file
 *.dis
-DataStructures/LinkedLists/doubly.exe
+*.doubly.exe
+Algorithms/Count Sort/countSort.cpp
+Algorithms/Bubble Sort/bubble_sort.exe
