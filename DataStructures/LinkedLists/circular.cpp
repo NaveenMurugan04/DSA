@@ -92,9 +92,9 @@ int main()
     scl.insert('E');
     scl.insert('L');
     scl.insert('L');
-     scl.insert('L');
+     
     scl.insert('0');
-    scl.deleteNode('L');
+  
     scl.display();
     return 0;
 }

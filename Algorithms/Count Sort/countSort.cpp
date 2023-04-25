@@ -33,12 +33,21 @@ public:
       count_arr[i] += count_arr[i - 1];
     }
 
+    for (int i = 0; i < 11; i++)
+    {
+      cout << count_arr[i] << "\t";
+    }
+
+
+
+
     int op_arr[6] = {0};
     for (int i = 0; i < 6; i++)
     {
 
       op_arr[--count_arr[arr[i]]] = arr[i];
     }
+
   }
   void display()
   {

@@ -142,12 +142,12 @@ int main()
 
     ll.insertFirst('L');
     ll.insertFirst('O');
-    ll.insertLast('W');
+   /*  ll.insertLast('W');
     ll.insertLast('O');
     ll.insertAfter('O', 'R');
-    ll.insertAfter('R', 'L');
+    ll.insertAfter('R', 'L'); */
 
-    ll.deleteElement('L');
+  //  ll.deleteElement('L');
 
     ll.display();
     ll.reverseList();
